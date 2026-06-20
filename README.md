@@ -482,3 +482,90 @@ for name, marks in students.items():
 ---
 
 💻 *“Consistency beats intensity. Keep coding daily!”*
+
+
+# 📅 Day 5 – Python Learning Journey
+
+## 📌 Topics Covered
+
+### 🌅 Morning – Reading & Writing Files
+
+* Learned how to use `open()` with different modes:
+
+  * `r` → Read
+  * `w` → Write
+  * `a` → Append
+* Used the `with` statement for safe file handling
+* Read files line by line
+* Wrote output to `.txt` files
+* Explored the `os` module for file system operations
+
+---
+
+### 🌇 Afternoon – CSV & JSON Handling
+
+* Worked with CSV files using the `csv` module
+* Used `csv.reader()` and `csv.DictReader()`
+* Learned JSON handling:
+
+  * `json.loads()` → Convert JSON to Python
+  * `json.dumps()` → Convert Python to JSON
+* Understood basic API JSON structure
+
+---
+
+## 🌙 Project – Data File Processor (CLI Tool)
+
+### 📊 Project Description
+
+Built a Command Line Interface (CLI) tool to process CSV data efficiently.
+
+### ⚙️ Features
+
+* 📥 Read data from CSV file
+* 🔍 Detect duplicate records
+* 🧹 Handle missing values
+* 📈 Generate summary report
+* 📄 Write output to `output.txt`
+
+---
+
+## 🧠 Key Concepts Learned
+
+* File handling in Python
+* Working with structured data (CSV & JSON)
+* Data cleaning techniques
+* Using sets for duplicate detection
+* Writing clean and modular functions
+
+---
+
+## 📄 Sample Output
+
+```
+Data Processing Summary
+-----------------------
+Total Rows: 4
+Duplicate Rows: 1
+Clean Rows: 3
+```
+
+---
+
+## 🚀 Future Improvements
+
+* Add CLI arguments (`argparse`)
+* Export cleaned data to new CSV file
+* Improve error handling
+* Add logging for better debugging
+
+---
+
+## 💡 Conclusion
+
+Day 5 focused on handling real-world data using Python.
+This project is a strong foundation for backend development, data processing, and automation tasks.
+
+---
+
+### 🔥 Keep Learning & Building!
